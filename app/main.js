@@ -1,10 +1,10 @@
 'use strict';
 var angular = require('angular');
-var ui_router = require('../node_modules/ui-router/release/angular-ui-router.js');
-var angular_material = require('angular-material');
+var uiRouter = require('../node_modules/ui-router/release/angular-ui-router.js');
+var angularMaterial = require('angular-material');
+var customCss = require('./main.scss');
 
-
-angular.module('webapp', [ui_router])
+angular.module('webapp', [uiRouter])
     .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/");
 
