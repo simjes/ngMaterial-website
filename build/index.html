@@ -2,13 +2,32 @@
 <html ng-app="webapp">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 </head>
 
-<body>
-    <!-- setup sass webpack -->
-    <div ui-view></div>
+<body ng-controller="tabsCtrl">
+    <!-- directive for tabs?, handle browser nav-->
+    <md-tabs class="md-primary" md-selected="selectedIndex" md-center-tabs="true">
+        <md-tab md-on-select="onTabSelected(selectedIndex)">
+            <md-tab-label>
+                Home
+            </md-tab-label>
+            <md-tab-body>
+                <div ui-view></div>
+            </md-tab-body>
+        </md-tab>
+        <md-tab md-on-select="onTabSelected(selectedIndex)">
+            <md-tab-label>
+                Projects
+            </md-tab-label>
+            <md-tab-body>
+                <div ui-view></div>
+            </md-tab-body>
+        </md-tab>
+    </md-tabs>
+
     <script src="bundle.js"></script>
+
 </body>
 
 </html>
