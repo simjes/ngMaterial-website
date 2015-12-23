@@ -1,5 +1,19 @@
 'use strict';
 var angular = require('angular');
+var ui_router = require('../node_modules/ui-router/release/angular-ui-router.js');
 var angular_material = require('angular-material');
-var ang_config = require('./ang-config.js');
+
+
+angular.module('webapp', [ui_router])
+    .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider.otherwise("");
+
+        $stateProvider
+            .state('home', {
+                url: "",
+                templateUrl: "./template/home.html",
+                controller: "mainCtrl"
+            });
+    }]);
+    
 var mainCtrl = require('./mainCtrl.js');
