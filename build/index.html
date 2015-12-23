@@ -6,8 +6,11 @@
 </head>
 
 <body ng-controller="tabsCtrl">
-    <!-- directive for tabs?, handle browser nav-->
-    <md-tabs class="md-primary" md-selected="selectedIndex" md-center-tabs="true">
+    <!-- directive for tabs?, handle browser nav, tabs scroll with page or "go to top button show when scrolled"-->
+    <header>
+        <h1 class="md-headline">simjes</h1>
+    </header>
+    <md-tabs class="md-primary" md-selected="selectedIndex" md-center-tabs="true" md-dynamic-height="true">
         <md-tab md-on-select="onTabSelected(selectedIndex)">
             <md-tab-label>
                 Home

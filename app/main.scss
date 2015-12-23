@@ -1,14 +1,20 @@
 $primaryText: #ffffff;
+//change to opacity val of primary
 $secondaryText: #cecece;
 $backgroundColor: #232228;
+$headerColor: #2b2a30;
 
 body {
     margin: 0px;
     background-color: $backgroundColor;
 }
 
-
-
+header {
+    padding: 2px 0;
+    background-color: $headerColor;
+    color: $primaryText;
+    text-align: center;
+}
 
 
 //angular material override
