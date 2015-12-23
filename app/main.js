@@ -19,7 +19,7 @@ angular.module('webapp', [uiRouter, 'ngAnimate', 'ngAria', 'ngMaterial', 'proCar
             .state('projects', {
                 url: "/projects",
                 templateUrl: "./template/projects.html",
-                controller: "homeCtrl" //tmp
+                controller: "projectCtrl"
             });
 
         var darkTheme = $mdThemingProvider.extendPalette('grey', {
@@ -42,7 +42,9 @@ angular.module('webapp', [uiRouter, 'ngAnimate', 'ngAria', 'ngMaterial', 'proCar
             })
             .dark();
     }]);
+    
 var projectCardDir = require('./directives/projectCard.js');
 
 var homeCtrl = require('./controllers/homeCtrl.js');
 var tabsCtrl = require('./controllers/tabsCtrl.js');
+var projectCtrl= require('./controllers/projectCtrl.js');

@@ -6,7 +6,7 @@ angular.module('proCard', [])
                 project: '='
             },
             templateUrl: './template/projectCard.html',
-            replace: true,
+            replace: false,
             controller: ['$scope', function ($scope) {
                 
             }]

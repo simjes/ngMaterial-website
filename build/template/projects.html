@@ -1,4 +1,7 @@
-<md-content>
-    <project-card project=""></project-card>
-    projects
+<md-content ng-init="getProjects()">
+    <div ng-repeat="project in projects">
+        <div layout="row">
+            <project-card project="project" flex="33"></project-card>
+        </div>
+    </div>
 </md-content>
