@@ -6,14 +6,14 @@ var angular_material = require('angular-material');
 
 angular.module('webapp', [ui_router])
     .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise("");
+        $urlRouterProvider.otherwise("/");
 
         $stateProvider
             .state('home', {
-                url: "",
+                url: "/",
                 templateUrl: "./template/home.html",
-                controller: "mainCtrl"
+                controller: "homeCtrl"
             });
     }]);
     
-var mainCtrl = require('./mainCtrl.js');
+var homeCtrl = require('./homeCtrl.js');

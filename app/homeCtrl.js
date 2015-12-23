@@ -1,5 +1,5 @@
 angular.module('webapp')
-    .controller('mainCtrl', ['$scope', '$state', function ($scope, $state) {
+    .controller('homeCtrl', ['$scope', '$state', function ($scope, $state) {
         $scope.testVar = "lelels";
         $scope.tstclick = function () {
             $state.go("home");
