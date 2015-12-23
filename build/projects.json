@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "Streemer",
-            "description": "Cross-platform application that collects multiple streaming websites in one application. This is a Ionic+Cordova application. ",
+            "description": "Cross-platform application that collects multiple streaming websites in one application. The application is made using the Ionic framework.",
             "icon": "img/streemer.svg",
             "pictures": {
                 "img_1": "img/project_img/streemer/streemer_picture.png",
@@ -29,7 +29,7 @@
         },
         {
             "title": "CloudComics",
-            "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. This project is done with Ionic+Cordova.",
+            "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. This project is done with the Ionic framework.",
             "icon": "img/cloudcomics.svg",
             "pictures": {
                 "img_1": "",
@@ -56,7 +56,7 @@
         },
         {
             "title": "SimCV",
-            "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera.",
+            "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera. Mostly Java, some C++.",
             "icon": "img/simcv.svg",
             "pictures": {
                 "img_1": "img/project_img/simcv/simcv_picture.png",
@@ -83,7 +83,7 @@
         },
         {
             "title": "ShopList",
-            "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera.",
+            "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application.",
             "icon": "img/shoplist.svg",
             "pictures": {
                 "img_1": "img/project_img/shoplist/shoplist_picture.png",

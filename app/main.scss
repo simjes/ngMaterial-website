@@ -16,6 +16,9 @@ header {
     text-align: center;
 }
 
+.cardstyle {
+    background-color: $headerColor;
+}
 
 //angular material override
 md-tabs .md-tab[disabled], md-tabs .md-tab[disabled] md-icon {

@@ -1,7 +1,4 @@
-<md-content ng-init="getProjects()">
-    <div ng-repeat="project in projects">
-        <div layout="row">
-            <project-card project="project" flex="33"></project-card>
-        </div>
-    </div>
+<md-content class="md-padding" layout="row" layout-wrap="" layout-align="center start" ng-init="getProjects()" layout-xs="column">
+    <!-- dynamic grid ?-->
+    <project-card ng-repeat="project in projects" project="project" flex-xs="100" flex-sm="50" flex-md="33" flex="25"></project-card>
 </md-content>

@@ -1,17 +1,23 @@
-<md-card>
+<md-card class="cardstyle">
     <md-card-header>
         <md-card-avatar>
-            <img src="{{project.icon}}" >
+            <img src="{{project.icon}}">
         </md-card-avatar>
         <md-card-header-text>
             <span class="md-title">{{project.title}}</span>
-            <span class="md-subhead">Material</span>
+            <span class="md-subhead">tmp text</span>
         </md-card-header-text>
     </md-card-header>
-    <img ng-src="{{project.pictures.img_1}}" class="md-card-image" alt="{{project.title}}" height="20">
+    <img src="img/tmp.png" class="md-card-image" alt="{{project.title}}">
     <md-card-content>
         <p>
             {{project.description}}
         </p>
     </md-card-content>
+    <md-card-actions layout="row" layout-align="center center">
+        <md-button ng-if="project.links.code" href="{{project.links.code}}" target="_blank">Code</md-button>
+        <md-button ng-if="project.links.youtube" href="{{project.links.youtube}}" target="_blank">Youtube</md-button>
+        <md-button ng-if="project.links.app_store" href="{{project.links.app_store}}" target="_blank">Android</md-button>
+        <md-button ng-if="project.links.play_store" href="{{project.links.play_store}}" target="_blank">Apple</md-button>
+    </md-card-actions>
 </md-card>
