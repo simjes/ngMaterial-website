@@ -43,5 +43,7 @@ angular.module('webapp', [uiRouter, 'ngAnimate', 'ngAria', 'ngMaterial'])
             .dark();
     }]);
 
+
 var homeCtrl = require('./controllers/homeCtrl.js');
 var tabsCtrl = require('./controllers/tabsCtrl.js');
+//var projectCardDir = require('./directives/projectCard.js');
