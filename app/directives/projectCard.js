@@ -1,4 +1,4 @@
-angular.module('webapp', [])
+angular.module('proCard', [])
     .directive('projectCard', function () {
         return {
             restrict: 'E',

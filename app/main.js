@@ -6,7 +6,7 @@ var angularMaterial = require('./../node_modules/angular-material/index.js');
 
 var customCss = require('./main.scss');
 
-angular.module('webapp', [uiRouter, 'ngAnimate', 'ngAria', 'ngMaterial'])
+angular.module('webapp', [uiRouter, 'ngAnimate', 'ngAria', 'ngMaterial', 'proCard'])
     .config(['$stateProvider', '$urlRouterProvider', '$mdThemingProvider', function ($stateProvider, $urlRouterProvider, $mdThemingProvider) {
         $urlRouterProvider.otherwise("/");
 
@@ -19,7 +19,7 @@ angular.module('webapp', [uiRouter, 'ngAnimate', 'ngAria', 'ngMaterial'])
             .state('projects', {
                 url: "/projects",
                 templateUrl: "./template/projects.html",
-                controller: "homeCtrl"
+                controller: "homeCtrl" //tmp
             });
 
         var darkTheme = $mdThemingProvider.extendPalette('grey', {
@@ -42,8 +42,7 @@ angular.module('webapp', [uiRouter, 'ngAnimate', 'ngAria', 'ngMaterial'])
             })
             .dark();
     }]);
-
+var projectCardDir = require('./directives/projectCard.js');
 
 var homeCtrl = require('./controllers/homeCtrl.js');
 var tabsCtrl = require('./controllers/tabsCtrl.js');
-//var projectCardDir = require('./directives/projectCard.js');
