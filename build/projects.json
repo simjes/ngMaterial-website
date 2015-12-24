@@ -3,7 +3,7 @@
         {
             "title": "Streemer",
             "description": "Cross-platform application that collects multiple streaming websites in one application. The application is made using the Ionic framework.",
-            "icon": "img/streemer.svg",
+            "icon": "img/card_header/streemer.svg",
             "pictures": {
                 "img_1": "img/project_img/streemer/streemer_picture.png",
                 "img_2": "img/project_img/streemer/streemer_picture2.png",
@@ -84,7 +84,7 @@
         {
             "title": "ShopList",
             "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application.",
-            "icon": "img/shoplist.svg",
+            "icon": "img/card_header/shoplist.svg",
             "pictures": {
                 "img_1": "img/project_img/shoplist/shoplist_picture.png",
                 "img_2": "img/project_img/shoplist/shoplist_picture2.png",
@@ -111,7 +111,7 @@
         {
             "title": "Firestorm",
             "description": "Remote control for a gas fireplace, built with Raspberry Pi and Android. Raspberry Pi runs a Python or a Go http server, which responds to GET requests from a Android application.",
-            "icon": "img/firestorm.svg",
+            "icon": "img/card_header/firestorm.svg",
             "pictures": {
                 "img_1": "",
                 "img_2": "",
@@ -138,7 +138,7 @@
         {
             "title": "pictureSort",
             "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
-            "icon": "img/picturesort.svg",
+            "icon": "img/card_header/picturesort.svg",
             "pictures": {
                 "img_1": "",
                 "img_2": "",
