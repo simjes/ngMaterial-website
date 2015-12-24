@@ -20,6 +20,10 @@ header {
     background-color: $headerColor;
 }
 
+#contact-list {
+    padding-top: 30px;
+}
+
 //angular material override
 md-tabs .md-tab[disabled], md-tabs .md-tab[disabled] md-icon {
   color: $secondaryText !important;
