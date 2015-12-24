@@ -30,7 +30,7 @@
         {
             "title": "CloudComics",
             "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. This project is done with the Ionic framework.",
-            "icon": "img/cloudcomics.svg",
+            "icon": "img/card_header/cloudcomics.svg",
             "pictures": {
                 "img_1": "",
                 "img_2": "",
@@ -57,7 +57,7 @@
         {
             "title": "SimCV",
             "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera. Mostly Java, some C++.",
-            "icon": "img/simcv.svg",
+            "icon": "img/card_header/simcv.svg",
             "pictures": {
                 "img_1": "img/project_img/simcv/simcv_picture.png",
                 "img_2": "img/project_img/simcv/simcv_picture2.png",
