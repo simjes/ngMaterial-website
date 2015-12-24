@@ -27,6 +27,14 @@
                 <div ui-view></div>
             </md-tab-body>
         </md-tab>
+        <md-tab md-on-select="onTabSelected(selectedIndex)" ng-disabled="true">
+            <md-tab-label>
+                Gallery
+            </md-tab-label>
+            <md-tab-body>
+                <div ui-view></div>
+            </md-tab-body>
+        </md-tab>
     </md-tabs>
 
     <script src="bundle.js"></script>

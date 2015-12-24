@@ -25,6 +25,7 @@ angular.module('webapp', [uiRouter, 'ngAnimate', 'ngAria', 'ngMaterial', 'proCar
         var darkTheme = $mdThemingProvider.extendPalette('grey', {
             '100': '232228', //background
             '500': '2b2a30', //navbar
+            'A100': 'e53935',
             'contrastDefaultColor': 'light',    //overriden for tabs 
             'contrastLightColors': '100',       //overriden for tabs
             'contrastStrongLightColors': '500'  //overriden for tabs
