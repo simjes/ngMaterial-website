@@ -24,6 +24,11 @@ header {
     padding-top: 30px;
 }
 
+.card-img-holder {
+    max-height: 400px;
+    max-width: 500px;
+}
+
 //angular material override
 md-tabs .md-tab[disabled], md-tabs .md-tab[disabled] md-icon {
   color: $secondaryText !important;
