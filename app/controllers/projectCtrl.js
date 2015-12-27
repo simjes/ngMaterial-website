@@ -10,29 +10,31 @@ angular.module('webapp')
                 //contentloaded after tab change animation?
                 setTimeout(function () {
                     $scope.contentLoaded = true;
-                }, 250);
-                
+                }, 75);
             }); // handle error
+            
         }
 
         function getProjectInfo(projects) {
-            var columns = findColumns();
-            var numberOfCards = projects.length;
-            var cardsPerColumn = Math.ceil(numberOfCards / columns);
-            var cardCounter = 0;
-            var allColumnInfo = [];
+            if (projects) {
+                var columns = findColumns();
+                var numberOfCards = projects.length;
+                var cardsPerColumn = Math.ceil(numberOfCards / columns);
+                var cardCounter = 0;
+                var allColumnInfo = [];
 
-            for (var i = 0; i < columns; i++) {
-                var columnCards = {};
-                for (j = 0; j < cardsPerColumn; j++) {
-                    if (cardCounter < numberOfCards) {
-                        columnCards[j] = projects[cardCounter];
-                        cardCounter++;
+                for (var i = 0; i < columns; i++) {
+                    var columnCards = {};
+                    for (j = 0; j < cardsPerColumn; j++) {
+                        if (cardCounter < numberOfCards) {
+                            columnCards[j] = projects[cardCounter];
+                            cardCounter++;
+                        }
                     }
+                    allColumnInfo.push(columnCards);
                 }
-                allColumnInfo.push(columnCards);
+                return allColumnInfo;
             }
-            return allColumnInfo;
         }
 
         function findColumns() {

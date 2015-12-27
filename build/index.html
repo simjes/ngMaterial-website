@@ -3,40 +3,40 @@
 
 <head>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>simjes</title>
 </head>
 
 <body ng-controller="tabsCtrl">
-    <!--  handle browser nav, tabs scroll with page or "go to top button show when scrolled"-->
     <header>
         <h1 class="md-headline">simjes</h1>
     </header>
     <md-tabs class="md-primary" md-selected="selectedIndex" md-center-tabs="true" md-dynamic-height="true">
-        <md-tab md-on-select="onTabSelected(selectedIndex)">
-            <md-tab-label>
+        <md-tab md-on-select="onTabSelected(selectedIndex)" label="home">
+           <!-- <md-tab-label>
                 Home
             </md-tab-label>
             <md-tab-body>
                 <div ui-view></div>
-            </md-tab-body>
+            </md-tab-body>-->
         </md-tab>
-        <md-tab md-on-select="onTabSelected(selectedIndex)">
-            <md-tab-label>
+        <md-tab md-on-select="onTabSelected(selectedIndex)" label="projects">
+            <!--<md-tab-label>
                 Projects
             </md-tab-label>
             <md-tab-body>
                 <div ui-view></div>
-            </md-tab-body>
+            </md-tab-body>-->
         </md-tab>
-        <md-tab md-on-select="onTabSelected(selectedIndex)" ng-disabled="true">
-            <md-tab-label>
+        <md-tab md-on-select="onTabSelected(selectedIndex)" ng-disabled="true" label="Gallery">
+            <!--<md-tab-label>
                 Gallery
             </md-tab-label>
             <md-tab-body>
                 <div ui-view></div>
-            </md-tab-body>
+            </md-tab-body>-->
         </md-tab>
     </md-tabs>
-
+    <div ui-view></div>
     <script src="bundle.js"></script>
 
 </body>
