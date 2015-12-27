@@ -21,13 +21,23 @@ header {
 }
 
 #contact-list {
-    padding-top: 30px;
+    margin-top: 60px;
+    text-align: center;
+    
+    .md-fab {
+        margin: 10px 30px;
+    }
+}
+
+#name-cv {
+    margin-top: 50px;
 }
 
 .card-img-holder {
     max-height: 400px;
     max-width: 700px;
 }
+
 
 //angular material override
 md-tabs .md-tab[disabled], md-tabs .md-tab[disabled] md-icon {
