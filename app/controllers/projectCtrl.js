@@ -1,17 +1,24 @@
 angular.module('webapp')
     .controller('projectCtrl', ['$scope', '$http', '$mdMedia', function ($scope, $http, $mdMedia) {
+        $scope.contentLoaded = false;
+
         $scope.getProjects = function () {
             $http.get('./projects.json').then(function (result) {
+                $scope.projectResults = result.data.projects;
                 $scope.projectColumns = getProjectInfo(result.data.projects);
-                console.log($scope.projectColumns);
-
+                
+                //contentloaded after tab change animation?
+                setTimeout(function () {
+                    $scope.contentLoaded = true;
+                }, 250);
+                
             }); // handle error
         }
 
         function getProjectInfo(projects) {
-            var columns = findSize();
+            var columns = findColumns();
             var numberOfCards = projects.length;
-            var cardsPerColumn = findCardsPerColumn(numberOfCards);
+            var cardsPerColumn = Math.ceil(numberOfCards / columns);
             var cardCounter = 0;
             var allColumnInfo = [];
 
@@ -19,16 +26,16 @@ angular.module('webapp')
                 var columnCards = {};
                 for (j = 0; j < cardsPerColumn; j++) {
                     if (cardCounter < numberOfCards) {
-                        columnCards["card" + j] = projects[cardCounter];
+                        columnCards[j] = projects[cardCounter];
                         cardCounter++;
-                    }   
+                    }
                 }
                 allColumnInfo.push(columnCards);
             }
             return allColumnInfo;
         }
 
-        function findSize() {
+        function findColumns() {
             if ($mdMedia('xs')) {
                 return 1;
             } else if ($mdMedia('sm')) {
@@ -40,15 +47,43 @@ angular.module('webapp')
             }
         }
 
-        function findCardsPerColumn(numberOfCards) {
-            if ($mdMedia('xs')) {
-                return numberOfCards;
-            } else if ($mdMedia('sm')) {
-                return Math.ceil(numberOfCards / 2);
-            } else if ($mdMedia('md')) {
-                return Math.ceil(numberOfCards / 3);
-            } else {
-                return Math.ceil(numberOfCards / 4);
+        $scope.$watch(function () {
+            return $mdMedia('xs');
+        }, function (newVal, oldVal) {
+            if (newVal) {
+                $scope.projectColumns = getProjectInfo($scope.projectResults);
             }
-        }
+        });
+
+        $scope.$watch(function () {
+            return $mdMedia('sm');
+        }, function (newVal, oldVal) {
+            if (newVal) {
+                $scope.projectColumns = getProjectInfo($scope.projectResults);
+            }
+        });
+
+        $scope.$watch(function () {
+            return $mdMedia('md');
+        }, function (newVal, oldVal) {
+            if (newVal) {
+                $scope.projectColumns = getProjectInfo($scope.projectResults);
+            }
+        });
+
+        $scope.$watch(function () {
+            return $mdMedia('lg');
+        }, function (newVal, oldVal) {
+            if (newVal) {
+                $scope.projectColumns = getProjectInfo($scope.projectResults);
+            }
+        });
+
+        $scope.$watch(function () {
+            return $mdMedia('xl');
+        }, function (newVal, oldVal) {
+            if (newVal) {
+                $scope.projectColumns = getProjectInfo($scope.projectResults);
+            }
+        });
     }]);
