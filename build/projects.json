@@ -94,6 +94,7 @@
             "subtitle": "Desktop client and server. Java",
             "description": "A photo viewer client that connects to a server that serves the photos that the user has stored. Group project for the course software development at UiS. My responsibility was the database and the communication with it.",
             "icon": "img/card_header/photoviewer.svg",
+            "card_img": "img/card_img/photoviewer.png",
             "links": {
                 "code": "https://github.com/snorheim/DAT210G",
                 "youtube": "",
