@@ -1,0 +1,106 @@
+{
+    "projects": [
+        {
+            "title": "Organisation Unit Manager",
+            "subtitle": "DHIS2 webapp",
+            "description": "This is a webapp that was made for the open source project DHIS2 in the open source course at UiO. The app use the DHIS2 web API to add and edit organistaion units. It also shows the location of a unit on a map.",
+            "icon": "img/card_header/dhis2.svg",
+            "card_img": "img/card_img/dhis2.png",
+            "links": {
+                "code": "https://github.com/simjes/dhis2-orgunit",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "Streemer",
+            "subtitle": "Ionic app",
+            "description": "Cross-platform application that collects multiple streaming websites in one application. The application is made using the Ionic framework.",
+            "icon": "img/card_header/streemer.svg",
+            "card_img": "img/card_img/streemer.png",
+            "links": {
+                "code": "",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "CloudComics",
+            "subtitle": "Ionic app",
+            "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. This project is done with the Ionic framework.",
+            "icon": "img/card_header/cloudcomics.svg",
+            "links": {
+                "code": "",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "SimCV",
+            "subtitle": "Android app",
+            "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera. Mostly Java, some C++.",
+            "icon": "img/card_header/simcv.svg",
+            "card_img": "img/card_img/simcv.png",
+            "links": {
+                "code": "https://github.com/simjes/OpenCV-Bachelor",
+                "youtube": "https://www.youtube.com/watch?v=oCViAhgrZn0",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "ShopList",
+            "subtitle": "Android app",
+            "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application.",
+            "icon": "img/card_header/shoplist.svg",
+            "card_img": "img/card_img/shoplist.png",
+            "links": {
+                "code": "https://github.com/simjes/ShopList",
+                "youtube": "",
+                "app_store": "",
+                "play_store": "https://play.google.com/store/apps/details?id=com.simjes.shoplist"
+            }
+        },
+        {
+            "title": "Firestorm",
+            "subtitle": "Android, Raspberry PI, Go, Python",
+            "description": "Remote control for a gas fireplace, built with Raspberry Pi and Android. Raspberry Pi runs a Python or a Go http server, which responds to GET requests from a Android application.",
+            "icon": "img/card_header/firestorm.svg",
+            "card_img": "img/card_img/firestorm.png",
+            "links": {
+                "code": "https://github.com/simjes/Firestorm",
+                "youtube": "https://www.youtube.com/watch?v=aHwYtt6lNsw",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "pictureSort",
+            "subtitle": "Desktop app, C#",
+            "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
+            "icon": "img/card_header/picturesort.svg",
+            "links": {
+                "code": "https://github.com/simjes/pictureSort",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "Photo  Viewer",
+            "subtitle": "Desktop client and server. Java",
+            "description": "A photo viewer client that connects to a server that serves the photos that the user has stored. Group project for the course software development at UiS. My responsibility was the database and the communication with it.",
+            "icon": "img/card_header/photoviewer.svg",
+            "card_img": "img/card_img/photoviewer.png",
+            "links": {
+                "code": "https://github.com/snorheim/DAT210G",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        }
+    ]
+}
