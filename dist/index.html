@@ -29,33 +29,14 @@
 
 <body ng-controller="tabsCtrl">
     <header>
-        <!--<h1 class="md-headline">simjes</h1>-->
         <img src="img/simjes.svg" alt="logo" height="80" width="80">
     </header>
     <md-tabs class="md-primary" md-selected="selectedIndex" md-center-tabs="true" md-dynamic-height="true">
         <md-tab md-on-select="onTabSelected(selectedIndex)" label="home">
-            <!-- <md-tab-label>
-                Home
-            </md-tab-label>
-            <md-tab-body>
-                <div ui-view></div>
-            </md-tab-body>-->
         </md-tab>
         <md-tab md-on-select="onTabSelected(selectedIndex)" label="projects">
-            <!--<md-tab-label>
-                Projects
-            </md-tab-label>
-            <md-tab-body>
-                <div ui-view></div>
-            </md-tab-body>-->
         </md-tab>
         <md-tab md-on-select="onTabSelected(selectedIndex)" ng-disabled="true" label="Gallery">
-            <!--<md-tab-label>
-                Gallery
-            </md-tab-label>
-            <md-tab-body>
-                <div ui-view></div>
-            </md-tab-body>-->
         </md-tab>
     </md-tabs>
     <div ui-view></div>
