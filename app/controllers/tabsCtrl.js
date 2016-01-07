@@ -10,10 +10,14 @@ angular.module('webapp')
                     break;
             }
         }
-        
-        /*$scope.$watch(function() {
-            return $state.current.name;
-        }, function(newVal, oldVal) {
-            console.log(newVal);
-        });*/
+
+        $scope.$watch(function () {
+            return $state.current;
+        }, function (newVal) {
+            if (newVal.name == "projects") {
+                $scope.selectedIndex = 1;
+            } else {
+                $scope.selectedIndex = 0;
+            }
+        });
     }]);
