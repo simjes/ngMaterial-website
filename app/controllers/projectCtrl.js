@@ -1,17 +1,23 @@
 angular.module('webapp')
     .controller('projectCtrl', ['$scope', '$http', '$mdMedia', function ($scope, $http, $mdMedia) {
         $scope.contentLoaded = false;
+        $scope.errorLoadingProjects = false;
 
         $scope.getProjects = function () {
             $http.get('./projects.json').then(function (result) {
                 $scope.projectResults = result.data.projects;
                 $scope.projectColumns = getProjectInfo(result.data.projects);
                 
-                //contentloaded after tab change animation?
                 setTimeout(function () {
                     $scope.contentLoaded = true;
                 }, 75);
-            }); // handle error
+            }, function (err) {
+                console.error(err);
+                setTimeout(function () {
+                    $scope.contentLoaded = true;
+                    $scope.errorLoadingProjects = true;
+                }, 75);
+            });
             
         }
 
@@ -51,7 +57,7 @@ angular.module('webapp')
 
         $scope.$watch(function () {
             return $mdMedia('xs');
-        }, function (newVal, oldVal) {
+        }, function (newVal) {
             if (newVal) {
                 $scope.projectColumns = getProjectInfo($scope.projectResults);
             }
@@ -59,7 +65,7 @@ angular.module('webapp')
 
         $scope.$watch(function () {
             return $mdMedia('sm');
-        }, function (newVal, oldVal) {
+        }, function (newVal) {
             if (newVal) {
                 $scope.projectColumns = getProjectInfo($scope.projectResults);
             }
@@ -67,7 +73,7 @@ angular.module('webapp')
 
         $scope.$watch(function () {
             return $mdMedia('md');
-        }, function (newVal, oldVal) {
+        }, function (newVal) {
             if (newVal) {
                 $scope.projectColumns = getProjectInfo($scope.projectResults);
             }
@@ -75,7 +81,7 @@ angular.module('webapp')
 
         $scope.$watch(function () {
             return $mdMedia('lg');
-        }, function (newVal, oldVal) {
+        }, function (newVal) {
             if (newVal) {
                 $scope.projectColumns = getProjectInfo($scope.projectResults);
             }
@@ -83,7 +89,7 @@ angular.module('webapp')
 
         $scope.$watch(function () {
             return $mdMedia('xl');
-        }, function (newVal, oldVal) {
+        }, function (newVal) {
             if (newVal) {
                 $scope.projectColumns = getProjectInfo($scope.projectResults);
             }
