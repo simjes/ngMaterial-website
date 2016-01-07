@@ -1,14 +1,14 @@
 <md-card class="cardstyle">
     <md-card-header>
         <md-card-avatar>
-            <img src="{{project.icon}}">
+            <img ng-src="{{project.icon}}">
         </md-card-avatar>
         <md-card-header-text>
             <span class="md-title">{{project.title}}</span>
             <span class="md-subhead">{{project.subtitle}}</span>
         </md-card-header-text>
     </md-card-header>
-    <img ng-if="project.card_img" src="{{project.card_img}}" class="md-card-image card-img-holder" alt="{{project.title}}">
+    <img ng-if="project.card_img" ng-src="{{project.card_img}}" class="md-card-image card-img-holder" alt="{{project.title}}">
     <md-card-content>
         <p>
             {{project.description}}
