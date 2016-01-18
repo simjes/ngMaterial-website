@@ -1,6 +1,20 @@
 {
     "projects": [
         {
+            "title": "SpeedRunsLive",
+            "subtitle": "Ionic",
+            "status": "idea",
+            "description": "This application will use the web API from speedrunslive.com to display information about speedruns from games. The webpage is not optimized for phones, so I thougth I could contribute to the community.",
+            "icon": "img/card_header/simcvgame.svg",
+            "card_img": "",
+            "links": {
+                "code": "",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
             "title": "Organisation Unit Manager",
             "subtitle": "DHIS2 webapp",
             "status": "done",
@@ -16,7 +30,7 @@
         },
         {
             "title": "Streemer",
-            "subtitle": "Ionic app",
+            "subtitle": "Ionic",
             "status": "done",
             "description": "Cross-platform application that collects multiple streaming websites in one application. I started this to learn Ionic, and it currently only has Twitch and Hitbox. It needs alot of improvements for it to be released, and I would probably start from scratch if I am ever going to release it.",
             "icon": "img/card_header/streemer.svg",
@@ -30,7 +44,7 @@
         },
         {
             "title": "CloudComics",
-            "subtitle": "Ionic app",
+            "subtitle": "Ionic",
             "status": "idea",
             "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. The development of this app is currently on hold.",
             "icon": "img/card_header/cloudcomics.svg",
@@ -43,7 +57,7 @@
         },
         {
             "title": "SimCV",
-            "subtitle": "Android app",
+            "subtitle": "Android",
             "status": "done",
             "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera. Mostly Java, some C++.",
             "icon": "img/card_header/simcv.svg",
@@ -57,7 +71,7 @@
         },
         {
             "title": "SimCV Game",
-            "subtitle": "Android app",
+            "subtitle": "Android",
             "status": "done",
             "description": "This app was a part of my bachelor thesis. It is a shitty game, but it helped us to show how OpenCV could be used together with LibGDX to make a game. You use the Android camera to track a specific color, this moves the player.",
             "icon": "img/card_header/simcvgame.svg",
@@ -71,7 +85,7 @@
         },
         {
             "title": "ShopList",
-            "subtitle": "Android app",
+            "subtitle": "Android",
             "status": "done",
             "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application.",
             "icon": "img/card_header/shoplist.svg",
@@ -84,6 +98,19 @@
             }
         },
         {
+            "title": "pictureSort",
+            "subtitle": "Desktop app, C#",
+            "status": "done",
+            "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
+            "icon": "img/card_header/picturesort.svg",
+            "links": {
+                "code": "https://github.com/simjes/pictureSort",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
             "title": "Firestorm",
             "subtitle": "Android, Raspberry PI, Go, Python",
             "status": "done",
@@ -93,19 +120,6 @@
             "links": {
                 "code": "https://github.com/simjes/Firestorm",
                 "youtube": "https://www.youtube.com/watch?v=aHwYtt6lNsw",
-                "app_store": "",
-                "play_store": ""
-            }
-        },
-        {
-            "title": "pictureSort",
-            "subtitle": "Desktop app, C#",
-            "status": "done",
-            "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
-            "icon": "img/card_header/picturesort.svg",
-            "links": {
-                "code": "https://github.com/simjes/pictureSort",
-                "youtube": "",
                 "app_store": "",
                 "play_store": ""
             }
