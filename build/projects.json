@@ -16,11 +16,11 @@
         {
             "title": "Streemer",
             "subtitle": "Ionic app",
-            "description": "Cross-platform application that collects multiple streaming websites in one application. The application is made using the Ionic framework.",
+            "description": "Cross-platform application that collects multiple streaming websites in one application. I started this to learn Ionic, and it currently only has Twitch and Hitbox. It needs alot of improvements for it to be released, and I would probably start from scratch if I am ever going to release it.",
             "icon": "img/card_header/streemer.svg",
             "card_img": "img/card_img/streemer.png",
             "links": {
-                "code": "",
+                "code": "https://github.com/simjes/Streemer",
                 "youtube": "",
                 "app_store": "",
                 "play_store": ""
@@ -29,7 +29,7 @@
         {
             "title": "CloudComics",
             "subtitle": "Ionic app",
-            "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. This project is done with the Ionic framework.",
+            "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. The development of this app is currently on hold.",
             "icon": "img/card_header/cloudcomics.svg",
             "links": {
                 "code": "",
@@ -48,7 +48,20 @@
                 "code": "https://github.com/simjes/OpenCV-Bachelor",
                 "youtube": "https://www.youtube.com/watch?v=oCViAhgrZn0",
                 "app_store": "",
-                "play_store": ""
+                "play_store": "https://play.google.com/store/apps/details?id=com.simjessimsol.simcv&hl=en"
+            }
+        },
+        {
+            "title": "SimCV Game",
+            "subtitle": "Android app",
+            "description": "This app was a part of my bachelor thesis. It is a shitty game, but it helped us to show how OpenCV could be used together with LibGDX to make a game. You use the Android camera to track a specific color, this moves the player.",
+            "icon": "img/card_header/simcvgame.svg",
+            "card_img": "img/card_img/simcvgame.png",
+            "links": {
+                "code": "https://github.com/simjes/OpenCV-Bachelor",
+                "youtube": "https://www.youtube.com/watch?v=OY1HrQPOHJY",
+                "app_store": "",
+                "play_store": "https://play.google.com/store/apps/details?id=com.simjessimsol.simcvgame.android&hl=en"
             }
         },
         {
@@ -92,7 +105,7 @@
         {
             "title": "Photo  Viewer",
             "subtitle": "Desktop client and server. Java",
-            "description": "A photo viewer client that connects to a server that serves the photos that the user has stored. Group project for the course software development at UiS. My responsibility was the database and the communication with it.",
+            "description": "A photo viewer client that connects to a server that serves the photos that the user has stored. Group project for the course software development at UiS. My responsibility was the database and the communication with it. We used hibernate for communication to a SQLite database.",
             "icon": "img/card_header/photoviewer.svg",
             "card_img": "img/card_img/photoviewer.png",
             "links": {
