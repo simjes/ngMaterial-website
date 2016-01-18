@@ -3,6 +3,7 @@
         {
             "title": "Organisation Unit Manager",
             "subtitle": "DHIS2 webapp",
+            "status": "done",
             "description": "This is a webapp that was made for the open source project DHIS2 in the open source course at UiO. The app use the DHIS2 web API to add and edit organistaion units. It also shows the location of a unit on a map.",
             "icon": "img/card_header/dhis2.svg",
             "card_img": "img/card_img/dhis2.png",
@@ -16,6 +17,7 @@
         {
             "title": "Streemer",
             "subtitle": "Ionic app",
+            "status": "done",
             "description": "Cross-platform application that collects multiple streaming websites in one application. I started this to learn Ionic, and it currently only has Twitch and Hitbox. It needs alot of improvements for it to be released, and I would probably start from scratch if I am ever going to release it.",
             "icon": "img/card_header/streemer.svg",
             "card_img": "img/card_img/streemer.png",
@@ -29,6 +31,7 @@
         {
             "title": "CloudComics",
             "subtitle": "Ionic app",
+            "status": "idea",
             "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. The development of this app is currently on hold.",
             "icon": "img/card_header/cloudcomics.svg",
             "links": {
@@ -41,6 +44,7 @@
         {
             "title": "SimCV",
             "subtitle": "Android app",
+            "status": "done",
             "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera. Mostly Java, some C++.",
             "icon": "img/card_header/simcv.svg",
             "card_img": "img/card_img/simcv.png",
@@ -54,6 +58,7 @@
         {
             "title": "SimCV Game",
             "subtitle": "Android app",
+            "status": "done",
             "description": "This app was a part of my bachelor thesis. It is a shitty game, but it helped us to show how OpenCV could be used together with LibGDX to make a game. You use the Android camera to track a specific color, this moves the player.",
             "icon": "img/card_header/simcvgame.svg",
             "card_img": "img/card_img/simcvgame.png",
@@ -67,6 +72,7 @@
         {
             "title": "ShopList",
             "subtitle": "Android app",
+            "status": "done",
             "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application.",
             "icon": "img/card_header/shoplist.svg",
             "card_img": "img/card_img/shoplist.png",
@@ -80,6 +86,7 @@
         {
             "title": "Firestorm",
             "subtitle": "Android, Raspberry PI, Go, Python",
+            "status": "done",
             "description": "Remote control for a gas fireplace, built with Raspberry Pi and Android. Raspberry Pi runs a Python or a Go http server, which responds to GET requests from a Android application.",
             "icon": "img/card_header/firestorm.svg",
             "card_img": "img/card_img/firestorm.png",
@@ -93,6 +100,7 @@
         {
             "title": "pictureSort",
             "subtitle": "Desktop app, C#",
+            "status": "done",
             "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
             "icon": "img/card_header/picturesort.svg",
             "links": {
@@ -105,6 +113,7 @@
         {
             "title": "Photo  Viewer",
             "subtitle": "Desktop client and server. Java",
+            "status": "done",
             "description": "A photo viewer client that connects to a server that serves the photos that the user has stored. Group project for the course software development at UiS. My responsibility was the database and the communication with it. We used hibernate for communication to a SQLite database.",
             "icon": "img/card_header/photoviewer.svg",
             "card_img": "img/card_img/photoviewer.png",
