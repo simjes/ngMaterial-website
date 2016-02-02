@@ -1,6 +1,20 @@
 {
     "projects": [
         {
+            "title": "Event server",
+            "subtitle": "Node, MongoDB",
+            "status": "indev",
+            "description": "RESTful Node server for getting list of events for an application. MongoDB is used for storing the information about the events.",
+            "icon": "img/card_header/cloudcomics.svg",
+            "card_img": "",
+            "links": {
+                "code": "",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
             "title": "SpeedRunsLive",
             "subtitle": "Ionic",
             "status": "idea",
