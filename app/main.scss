@@ -29,16 +29,9 @@ header {
     }
 }
 
-@media (max-width: 1279px) {
-    .card-img {
-        max-height: 300px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .card-img {
-        max-height: 400px;
-    }
+.card-img {
+    object-fit: cover;
+    max-height: 300px;
 }
 
 #name-cv {
