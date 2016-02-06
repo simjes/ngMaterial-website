@@ -4,7 +4,7 @@
             "title": "Event server",
             "subtitle": "Node, MongoDB",
             "status": "indev",
-            "description": "RESTful Node server for getting list of events for an application. MongoDB is used for storing the information about the events.",
+            "description": "RESTful Node server for getting list of events for an application. MongoDB is used for storing the information about the events. Also writing tests for this.",
             "icon": "img/card_header/cloudcomics.svg",
             "card_img": "",
             "links": {

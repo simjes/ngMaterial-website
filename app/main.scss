@@ -15,9 +15,18 @@ header {
     text-align: center;
 }
 
-.cardstyle {
-    background-color: $headerColor;
-    max-width: 1200px;
+@media(min-width: 1700px) {
+    .cardstyle {
+        background-color: $headerColor;
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 1699px) {
+    .cardstyle {
+        background-color: $headerColor;
+        max-width: 700px;
+    }
 }
 
 #contact-list {
@@ -31,7 +40,7 @@ header {
 
 .card-img {
     object-fit: cover;
-    max-height: 300px;
+    max-height: 250px;
 }
 
 #name-cv {
