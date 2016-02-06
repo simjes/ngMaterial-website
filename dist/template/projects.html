@@ -1,8 +1,14 @@
 <md-content class="md-padding" layout="row" layout-wrap="" layout-align="center start" ng-init="getProjects()" layout-xs="column">
     <md-progress-circular md-mode="indeterminate" class="md-accent" ng-hide="contentLoaded"></md-progress-circular>
     <div ng-show="errorLoadingProjects">Could not load projects</div>
-    
-    <div layout="column" ng-repeat="col in projectColumns" flex="100" flex-gt-xs="50" flex-gt-sm="33" flex-gt-md="25" ng-show="contentLoaded">
-         <project-card ng-repeat="project in col" project="project"></project-card>
+
+    <div layout="row" class="iehide" layout-align="center start">
+        <div layout="column" ng-repeat="col in projectColumns" flex="100" flex-gt-xs="50" flex-gt-sm="33" flex-gt-md="25" ng-show="contentLoaded">
+            <project-card ng-repeat="project in col" project="project"></project-card>
+        </div>
+    </div>
+
+    <div class="ieshow">
+        Since Internet Explorer has poor support for flexbox(which Angular Material use) I decided to drop support for it, might do something later.
     </div>
 </md-content>

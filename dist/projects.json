@@ -1,6 +1,20 @@
 {
     "projects": [
         {
+            "title": "Event server",
+            "subtitle": "Node, MongoDB",
+            "status": "indev",
+            "description": "RESTful Node server for storing information about events. This API will be used for an cross-platform application later. MongoDB is used for storing. Will also write tests.",
+            "icon": "img/card_header/cloudcomics.svg",
+            "card_img": "",
+            "links": {
+                "code": "",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
             "title": "SpeedRunsLive",
             "subtitle": "Ionic",
             "status": "idea",
@@ -73,7 +87,7 @@
             "title": "SimCV Game",
             "subtitle": "Android",
             "status": "done",
-            "description": "This app was a part of my bachelor thesis. It is a shitty game, but it helped us to show how OpenCV could be used together with LibGDX to make a game. You use the Android camera to track a specific color, this moves the player.",
+            "description": "This app was a part of my bachelor thesis. It is not a good game, but it helped us to show how OpenCV could be used together with LibGDX to make a game. You use the Android camera to track a specific color, this moves the player.",
             "icon": "img/card_header/simcvgame.svg",
             "card_img": "img/card_img/simcvgame.png",
             "links": {
@@ -87,7 +101,7 @@
             "title": "ShopList",
             "subtitle": "Android",
             "status": "done",
-            "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application.",
+            "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application. I will come back and improve this more later.",
             "icon": "img/card_header/shoplist.svg",
             "card_img": "img/card_img/shoplist.png",
             "links": {
@@ -101,7 +115,7 @@
             "title": "pictureSort",
             "subtitle": "Desktop app, C#",
             "status": "done",
-            "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
+            "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Did this small project to test C#.",
             "icon": "img/card_header/picturesort.svg",
             "links": {
                 "code": "https://github.com/simjes/pictureSort",
