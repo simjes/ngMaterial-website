@@ -1,10 +1,24 @@
 {
     "projects": [
         {
+            "title": "ShopList",
+            "subtitle": "Android",
+            "status": "done",
+            "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application. Update 06.03.16: New functionality and a new theme. Will update more in the future.",
+            "icon": "img/card_header/shoplist.svg",
+            "card_img": "img/card_img/shoplist.png",
+            "links": {
+                "code": "https://github.com/simjes/ShopList",
+                "youtube": "",
+                "app_store": "",
+                "play_store": "https://play.google.com/store/apps/details?id=com.simjes.shoplist"
+            }
+        },
+        {
             "title": "Event server",
             "subtitle": "Node, MongoDB",
-            "status": "indev",
-            "description": "RESTful Node server for storing information about events. This API will be used for an cross-platform application later. MongoDB is used for storing. Will also write tests.",
+            "status": "done",
+            "description": "RESTful Node server for storing information about events. This API will be used for a cross-platform application later. MongoDB is used for storing. Will also write tests.",
             "icon": "img/card_header/cloudcomics.svg",
             "card_img": "",
             "links": {
@@ -95,20 +109,6 @@
                 "youtube": "https://www.youtube.com/watch?v=OY1HrQPOHJY",
                 "app_store": "",
                 "play_store": "https://play.google.com/store/apps/details?id=com.simjessimsol.simcvgame.android&hl=en"
-            }
-        },
-        {
-            "title": "ShopList",
-            "subtitle": "Android",
-            "status": "done",
-            "description": "The first Android application I ever created was a shopping list, and it was not very good in terms of code and design. Now that I know Android better I decided to recreate the shopping list application. I will come back and improve this more later.",
-            "icon": "img/card_header/shoplist.svg",
-            "card_img": "img/card_img/shoplist.png",
-            "links": {
-                "code": "https://github.com/simjes/ShopList",
-                "youtube": "",
-                "app_store": "",
-                "play_store": "https://play.google.com/store/apps/details?id=com.simjes.shoplist"
             }
         },
         {
